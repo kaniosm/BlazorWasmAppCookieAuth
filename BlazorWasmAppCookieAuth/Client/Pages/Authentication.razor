@@ -1,0 +1,15 @@
+﻿@page "/authentication/{action}"
+@using BlazorWasmAppCookieAuth.Shared;
+@using Microsoft.AspNetCore.Components.WebAssembly.Authentication
+@using System.Collections.ObjectModel;
+@inject NavigationManager Navigation
+<RemoteAuthenticatorView Action="@Action" OnLogOutSucceeded="OnLogOut" />
+
+@code{
+    [Parameter] public string Action { get; set; }
+
+    private void OnLogOut()
+    {
+        Navigation.NavigateTo("/");
+    }
+}

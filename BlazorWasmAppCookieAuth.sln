@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.33808.371
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorWasmAppCookieAuth.Server", "BlazorWasmAppCookieAuth\Server\BlazorWasmAppCookieAuth.Server.csproj", "{6B8D30DE-5A71-47B4-A2B1-CC22CE3FAAE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorWasmAppCookieAuth.Client", "BlazorWasmAppCookieAuth\Client\BlazorWasmAppCookieAuth.Client.csproj", "{F9532385-FE21-4215-A7F2-FF01445E7528}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorWasmAppCookieAuth.Shared", "BlazorWasmAppCookieAuth\Shared\BlazorWasmAppCookieAuth.Shared.csproj", "{035C6383-94C0-4DDA-8BA1-FA84D1E78875}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B8D30DE-5A71-47B4-A2B1-CC22CE3FAAE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B8D30DE-5A71-47B4-A2B1-CC22CE3FAAE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B8D30DE-5A71-47B4-A2B1-CC22CE3FAAE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B8D30DE-5A71-47B4-A2B1-CC22CE3FAAE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9532385-FE21-4215-A7F2-FF01445E7528}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9532385-FE21-4215-A7F2-FF01445E7528}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9532385-FE21-4215-A7F2-FF01445E7528}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9532385-FE21-4215-A7F2-FF01445E7528}.Release|Any CPU.Build.0 = Release|Any CPU
+		{035C6383-94C0-4DDA-8BA1-FA84D1E78875}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{035C6383-94C0-4DDA-8BA1-FA84D1E78875}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{035C6383-94C0-4DDA-8BA1-FA84D1E78875}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{035C6383-94C0-4DDA-8BA1-FA84D1E78875}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E68F428D-B17E-4DB8-BDAC-67685D0D4297}
+	EndGlobalSection
+EndGlobal
